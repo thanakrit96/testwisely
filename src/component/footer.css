@@ -1,0 +1,61 @@
+.footcon{
+    display: flex;
+    justify-content: space-between;
+     bottom: 1px;
+    width:99vw;
+    position: absolute;
+    border-top: solid rgba(196, 196, 196, 0.411) 0.1px;
+    padding-top: 10px;
+}
+@media screen and (max-width : 520px){
+    .footcon{
+        flex-direction: column;
+        position: relative;
+    }
+} 
+ .atside{
+    margin-left: 10px;
+}  
+.pf{
+    display: flex;
+}
+.taillogo{
+    color: rgba(64, 11, 211, 0.747);
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.locon{
+    display: flex;
+    padding: 10px 10px;
+    margin: 1em 1em;
+    margin-left: 0px;
+    justify-content: space-between;
+    width: 150px;
+}
+.svg{
+    margin:5px
+}
+.footcon ul li h4{
+color: rgba(0, 0, 0, 0.788);
+padding: 5px 5px;
+}
+.footcon ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0px 0px;
+}
+.footcon ul p{
+    color: rgba(39, 39, 39, 0.623);
+    margin: 5px;
+    padding: 5px 5px;
+}
+.mik{color:rgba(0, 0, 0, 0.788);}
+ 
+.lfoot{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1px;
+}

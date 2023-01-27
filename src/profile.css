@@ -1,0 +1,5 @@
+.headercon{
+    display: flex;
+    justify-content: space-between;
+    border: solid red 1px;
+}
