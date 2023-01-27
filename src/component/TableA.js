@@ -7,9 +7,9 @@ export default function Table() {
     const res = await fetch("https://reqres.in/api/users/").then(function (response){
         return response.json()        
     })
-     /* console.log(res) */
+      console.log(res) 
      res.data.sort(compare) 
-    /* console.log(res)  */
+     console.log(res) 
     setUsers(res.data)
   };
   const compare = ( a, b )=> {
