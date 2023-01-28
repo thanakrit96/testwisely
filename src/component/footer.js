@@ -10,11 +10,11 @@ function footer() {
         <div className='taillogo'><SiTailwindcss/></div>
         <div className='mik'>Making the world a better place through constructing elegant hierarchies</div>
         <div className='locon'>
-          <div><SiFacebook/></div>
-          <div><SiInstagram/></div>
-          <div><SiTwitter/></div>
-          <div><SiGithub/></div>
-          <div><SiYoutube/></div>
+          <div className='footlo'><SiFacebook/></div>
+          <div className='footlo'><SiInstagram/></div>
+          <div className='footlo'><SiTwitter/></div>
+          <div className='footlo'><SiGithub/></div>
+          <div className='footlo'><SiYoutube/></div>
           </div>
       </div>
         <ul>

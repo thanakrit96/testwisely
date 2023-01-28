@@ -1,5 +1,6 @@
 import * as React from "react";
-import './Table.css'
+import './TableA.css'
+import { SiTwitter,SiLinkedin } from "react-icons/si";
 
 export default function Table() {
   const [users, setUsers] = React.useState([]);
@@ -27,19 +28,22 @@ export default function Table() {
     f();
   }, []);
   return (
-    <div className="tablecon">
-        <div className="meetcon">
-      <h2 className="tin">Meet our leadership</h2>
-      <p >Libero fames augue nisi,quis. la ac elit odio vitae elementum enim vitae ullaacorpper suspensisse, Vivamus fringilla</p>
+    <div className="tablecons">
+        <div className="meetcons">
+      <h2 className="tins">Meet our team</h2>
+      <p >Onare sagittis,suspendisse in hendrerit quis.sed dui aliquet lectus sit pretium egetas vel mattis neque.</p>
       </div>
-      <div className="flex">
+      <div className="flexs">
         {users.length &&
           users.map((user) => {
             return (
-              <div className="infocon" key={user.id}>
+              <div className="infocons" key={user.id}>
                 <img key={user.avatar} src={user.avatar} />
-                <div><p>{user.first_name}</p>
-                     <p>{user.email}</p>
+                <div className="twli"><p>{user.first_name}</p>
+                     <div className="tw">
+                      <div className="twii"><SiTwitter/></div>
+                      <div className="liin"><SiLinkedin/></div>
+                     </div>
                 </div>                              
               </div>
             );

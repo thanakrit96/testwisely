@@ -25,7 +25,6 @@ function Login() {
     })
     .then(result => {
       console.log(result.data)
-      /* alert('success') */
       localStorage.setItem('token',result.data.token)
       Navigate('/profile')
     })

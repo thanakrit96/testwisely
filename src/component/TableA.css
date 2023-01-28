@@ -1,0 +1,83 @@
+.tablecons {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: auto;
+    margin-top: 10px;
+ /*    border-bottom: solid 0.5px rgba(128, 128, 128, 0.664); */
+  }
+
+  .tins {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    size: 250px;
+  }
+  .flexs {
+    display: grid;
+    grid-template-columns: repeat(3 ,0.5fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px; ;
+    margin-left: 150px;
+
+  }
+  .infocons{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    /* margin: 1rem 1rem 2rem 1rem;
+    text-align: center; */
+    /* border: solid rgb(0, 15, 151) 1px; */
+  }
+   .twli{
+    justify-content: center;
+    justify-items: center;
+    
+  } 
+ 
+  
+  .tw{
+    display: flex;
+    color: rgba(67, 68, 68, 0.61);
+  }
+  .liin{
+    margin-left: 1em;
+  }
+  
+  img {
+    display: inline-block;
+    max-width: 30%;
+    border-radius: 50%;
+    margin-right: 1em;
+    border: solid rgba(69, 56, 185, 0.507) 3px;
+    padding: 2px;
+  }
+  .meetcons{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 10px 20px;
+    margin-right: 50px;
+
+  }
+  .meetcons p{
+    margin-top: 0;
+    color: rgba(67, 68, 68, 0.61);
+  }
+  @media screen and (max-width : 1024px){
+    .tablecons
+    {
+      flex-direction: column;
+    }
+    .flexs{
+      margin-left: 1em;
+      
+    }
+  }
+  

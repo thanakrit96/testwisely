@@ -1,16 +1,17 @@
 .footcon{
     display: flex;
     justify-content: space-between;
-     bottom: 1px;
     width:99vw;
     position: absolute;
     border-top: solid rgba(196, 196, 196, 0.411) 0.1px;
     padding-top: 10px;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width : 520px){
     .footcon{
         flex-direction: column;
         position: relative;
+        align-items: center;
     }
 } 
  .atside{
@@ -56,6 +57,13 @@ padding: 5px 5px;
 .lfoot{
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
     position: absolute;
-    bottom: 1px;
+    bottom: 0px;
+    margin-top: 1em;
+    color: rgba(121, 124, 124, 0.76);
+}
+.footlo{
+    color: rgba(121, 124, 124, 0.76);
 }

@@ -23,8 +23,9 @@ export default function Table() {
             return (
               <div className="infocon" key={user.id}>
                 <img key={user.avatar} src={user.avatar} />
-                <div><p>{user.first_name}</p>
-                     <p>{user.email}</p>
+                <div>
+                  <p>{user.first_name}</p>
+                  {/* <p>{user.email}</p> */}
                 </div>                             
               </div>
             );
