@@ -1,14 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { SiTailwindcss } from "react-icons/si";
-/* import { FaTimes,FaBars } from "react-icons/fa";
-import { UseState } from 'react'; */
+/* import { FaTimes,FaBars } from "react-icons/fa"; */
 import { RiArrowDropDownLine } from "react-icons/ri";
 import './Navbar.css'
 import { HiCursorClick,HiChartBar,HiOutlineShieldCheck,HiOutlineViewGrid,HiPlay,HiPhone } from "react-icons/hi";
 import { AiOutlineReload } from "react-icons/ai";
 
 function navbar() {
-    
+
 
     return ( 
         <header className='navcon'>
@@ -39,5 +38,5 @@ function navbar() {
         </div> 
         </header >
     );
-}
+    }
 export default navbar 

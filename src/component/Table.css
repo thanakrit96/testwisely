@@ -3,45 +3,59 @@
     display: flex;
     align-items: center;
     height: 50%;
-  /*    border: solid red 1px */; 
+    width: auto;
+    margin-top: 10px;
+    /* border-bottom: solid 0.5px rgba(128, 128, 128, 0.664); */
+    box-shadow: 2px 5Px 8px 0px rgba(0, 0, 0, 0.05);
   }
   
   .flex {
     display: grid;
-    grid-template-columns: repeat(2 ,1fr);
+    grid-template-columns: repeat(2 ,0.5fr);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    border: solid rgb(76, 0, 255) 1px;
+    width: 100%;
+    gap: 5px; ;
+   /*  border: solid rgb(76, 0, 255) 1px; */
     margin-left: 150px;
 
   }
   .infocon{
     display: flex;
-    margin: 1rem 1rem 2rem 1rem;
-    text-align: center;
-    border: solid rgb(0, 15, 151) 1px
+     margin: 1rem 1rem 2rem 1rem;
+    text-align: center; 
+     justify-content: center;
+      align-items: center;
   }
   
   img {
     display: inline-block;
-    max-width: 50%;
+    max-width: 30%;
     border-radius: 50%;
+    margin-right: 1em;
   }
   .meetcon{
     display: flex;
     flex-direction: column;
-    width: 250px;
-    border: solid green 1px;
-    height: 250px;
+    width: auto;
+  /*   border: solid green 1px; */
     margin: 10px 20px;
     margin-right: 50px;
-    padding-left: 10px;
 
   }
   .meetcon p{
     margin-top: 0;
     color: rgba(67, 68, 68, 0.61);
+  }
+  @media screen and (max-width : 1024px){
+    .tablecon
+    {
+      flex-direction: column;
+    }
+    .flex{
+      margin-left: 1em;
+      
+    }
   }
   
