@@ -36,7 +36,7 @@ export default function Table() {
               },
               {
                   "id": 4,
-                  "email": "VIP,User Exoeriance",
+                  "email": "VIP,User Experiance",
                   "first_name": "Eve",
                   "avatar": "https://reqres.in/img/faces/4-image.jpg"
               },
