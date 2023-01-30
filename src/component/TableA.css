@@ -23,7 +23,6 @@
     align-items: center;
     width: 100%;
     gap: 5px; ;
-    margin-left: 150px;
 
   }
   .infocons{
@@ -35,16 +34,24 @@
     text-align: center; */
     /* border: solid rgb(0, 15, 151) 1px; */
   }
+  .jobM{
+    color: rgba(79, 57, 175, 0.822);
+    font-weight: 600;
+    margin: 1em 0em;
+    font-size: 15px;
+  }
    .twli{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
     
-  } 
- 
-  
+  }   
   .tw{
     display: flex;
     color: rgba(67, 68, 68, 0.61);
+    justify-content: center;
+    align-items: center;
   }
   .liin{
     margin-left: 1em;
